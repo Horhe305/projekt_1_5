@@ -8,5 +8,11 @@ class Main {
       {
         if(parzysta%2==0) System.out.println(parzysta);
       }
+
+    int nieparzysta = 0;
+    for(int i = 100; nieparzysta <= i; nieparzysta++)
+      {
+        if(nieparzysta%2==0) System.out.println(nieparzysta);
+      }
   }
 }
