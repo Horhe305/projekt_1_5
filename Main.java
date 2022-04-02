@@ -1,18 +1,21 @@
 import java.util.Scanner; 
 class Main {
   public static void main(String[] args) {
-     Scanner Obj = new Scanner(System.in);
-
-    int parzysta = 0;
-    for(int i = 50; parzysta <= i; parzysta++)
+    System.out.println("Liczby parzyste:");
+    for(int x = 0; x <= 50; x++)
+    {
+      if(x%2 == 0)
       {
-        if(parzysta%2==0) System.out.println(parzysta);
+        System.out.println(x);
       }
-
-    int nieparzysta = 0;
-    for(int i = 100; nieparzysta <= i; nieparzysta++)
+    }
+    System.out.println("Liczby nieparzyste:");
+    for(int x = 50; x <= 100; x++)
+    {
+      if(x%2 != 0 )
       {
-        if(nieparzysta%2==0) System.out.println(nieparzysta);
+        System.out.println(x);
       }
+    }
   }
 }
